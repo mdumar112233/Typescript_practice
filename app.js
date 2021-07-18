@@ -26,3 +26,15 @@ var greeting = function (name) {
     console.log('my name is ' + name);
 };
 greeting('umar');
+var introduce = function (_a) {
+    var name = _a.name, age = _a.age;
+    console.log('hello i am ' + person.name + 'my age ' + person.age);
+};
+introduce(person);
+var gameDirection = 'left';
+// genaric type check
+var getArray = function (arr) {
+    return arr;
+};
+var result = getArray(['umar faruk']);
+console.log(result);

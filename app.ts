@@ -51,6 +51,24 @@ const greeting = (name: string) : void => {
 greeting('umar');
 
 
+const introduce = ({name, age}: person) : void => {
+    console.log('hello i am ' + person.name + 'my age ' + person.age)
+}
+
+introduce(person);
+
+// litarel type check
+type direction = 'left';
+
+let gameDirection: direction = 'left';
+
+// genaric type check
+const getArray = <T>(arr: T[]): T[] => {
+    return arr;
+}
+
+const result = getArray<string>(['umar faruk'])
+console.log(result)
 
 
 
