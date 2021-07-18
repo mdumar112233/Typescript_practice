@@ -31,6 +31,25 @@ let secondPerson: person ={
     age: 33,
 }
 
+// array
+type arrayType = (number | string)[]
+
+const numbers: arrayType= [23,3423,23423,"asdfasdf"];
+const number2: person[]= [
+    {
+        name : 'umar',
+        age: 33,
+        hobby: 'sleeping'
+    }
+];
+
+// function
+const greeting = (name: string) : void => {
+    console.log('my name is ' + name)
+}
+
+greeting('umar');
+
 
 
 
